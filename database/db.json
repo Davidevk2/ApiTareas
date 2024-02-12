@@ -1,0 +1,56 @@
+{
+  "usuarios": [
+    {
+      "id": "1450",
+      "username": "david",
+      "password": "12345"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "30f2",
+      "nombre": "Trabajo",
+      "descripcion": "trabajar"
+    },
+    {
+      "nombre": "Hogar",
+      "descripcion": "cosas de la casa ",
+      "id": "377f"
+    },
+    {
+      "nombre": "Universidad",
+      "descripcion": "Univerdad ",
+      "id": "c66f"
+    }
+  ],
+  "tareas": [
+    {
+      "id": "42c1",
+      "nombre": "Llamar al jefe",
+      "descripcion": "llamar al jefe para avisarle algo",
+      "categoriaId": "Trabajo",
+      "estado": "pendiente"
+    },
+    {
+      "id": "42d4",
+      "nombre": "Realizar ensayo",
+      "descripcion": "ensayo de español",
+      "categoriaId": "c66f",
+      "estado": "haciendo"
+    },
+    {
+      "id": "e4e3",
+      "nombre": "Realizar mercado",
+      "descripcion": "ir a mercar ",
+      "categoriaId": "Hogar",
+      "estado": "pendiente"
+    },
+    {
+      "id": "76ed",
+      "nombre": "Comprar algo ",
+      "descripcion": "ir de comrpas",
+      "categoriaId": "Otro",
+      "estado": "pendiente"
+    }
+  ]
+}
